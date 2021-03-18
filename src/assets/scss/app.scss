@@ -1,0 +1,54 @@
+@import "./main/reset";
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.first-selection{
+    &__botton{
+        display: flex;
+    }
+
+    &__img-wrap,
+    &__content{
+        max-width: 50%;
+        flex: 00 50%
+    }
+    &__title{
+        margin: 0 0 20px;
+
+    }
+    &__text{
+        margin: 0 0 20px;
+    }
+}
+
+.btn{
+    display: inline-block;
+    
+}
+.first-selection__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav__list{
+    display: flex;
+    min-width: 611px;
+    justify-content: space-between;       
+}
+
+.nav__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    &:hover{}
+    &.active{
+        color:#34547A;
+    }
+}
+.nav__link:hover{}
